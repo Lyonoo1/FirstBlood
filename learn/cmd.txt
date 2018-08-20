@@ -1,0 +1,6 @@
+winver 查看Windo
+osk  打开屏幕键盘
+narrator 打开讲述人
+magnify  打开放大镜
+attrib +s +a +h +r d:\管家  隐藏d盘下管家的文件夹
+attrib -s -a -h -r d:\管家

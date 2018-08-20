@@ -1,0 +1,43 @@
+首行缩进：text-indent:xem;
+
+行间距：line-height:xem;
+
+间距，字母间距：letter-spacing	
+
+英文单词间距：word-spacing 
+
+对齐：text-align:right,left,center
+
+常用的块状元素有：<div>、<p>、<h1>...<h6>、<ol>、<ul>、<dl>、<table>、<address>、<blockquote> 、<form>
+
+用的内联元素有：<a>、<span>、<br>、<i>、<em>、<strong>、<label>、<q>、<var>、<cite>、<code>
+
+常用的内联块状元素有：<img>、<input>
+
+设置display:block就是将元素显示为块级元素
+
+display:inline将元素设置为内联元素 不可设置宽高
+
+display:inline-block 内联块状元素
+
+padding:内容到页边的距离
+
+margin：不同块状元素之间的距离
+
+border-style（边框样式）常见样式有：dashed（虚线）| dotted（点线）| solid（实线）
+
+padding margin:上右下左
+
+CSS包括三种布局：流动模型（Flow）浮动模型 (Float) 层模型（Layer）
+
+ _blank：在新窗口显示目标网页 _self：在当前窗口显示目标网页 	 _top：框架网页中在上部窗口中显示目标网页
+
+DOM 元素节点：上图中<html>、<body>、<p>等都是元素节点，即标签。
+    文本节点:向用户展示的内容，如<li>...</li>中的JavaScript、DOM、CSS等文本。
+    属性节点:元素属性，如<a>标签的链接属性href="http://www.imooc.com"
+
+改变HTML样式：Object.style.property=new style;
+
+修改内容：Object.innerHTML
+
+显示隐藏（display属性）：	var mychar = document.getElementById("con").style.display="none/block";
